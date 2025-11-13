@@ -1,0 +1,168 @@
+/* ---------- GLOBAL RESET ---------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ---------- BODY ---------- */
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #F2F0EA; /* Cream */
+  color: #333;
+  line-height: 1.6;
+}
+
+/* ---------- HEADER ---------- */
+header {
+  background: linear-gradient(135deg, #FF78AC, #A8D5E3);
+  color: white;
+  text-align: center;
+  padding: 30px 0;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+  font-size: 3.2rem;
+  letter-spacing: 1px;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  color: #F2F0EA; /* Cream for soft contrast */
+  text-decoration: none;
+  margin: 0 8px;
+  font-weight: 700;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #A8D5E3; /* Teal hover */
+  text-decoration: underline;
+}
+
+/* ---------- MAIN LAYOUT ---------- */
+main {
+  width: 90%;
+  max-width: 900px;
+  margin: 40px auto;
+}
+
+/* ---------- SECTIONS ---------- */
+section {
+  background-color: white;
+  margin-bottom: 30px;
+  padding: 25px;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+/* Section Headings */
+section h2 {
+  color: #FF78AC; /* Pink headings */
+  margin-bottom: 10px;
+  border-bottom: 2px solid #A8D5E3; /* Teal underline */
+  display: inline-block;
+  padding-bottom: 3px;
+  font-weight: 600;
+}
+
+/* ---------- ABOUT ---------- */
+#about p {
+  font-size: 1rem;
+}
+
+/* ---------- PROJECTS ---------- */
+#projects ul {
+  list-style-type: square;
+  padding-left: 20px;
+}
+
+#projects li strong {
+  color: #FF78AC;
+}
+
+/* ---------- SKILLS TABLE ---------- */
+#skills table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+#skills th,
+#skills td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+#skills th {
+  background-color: #A8D5E3; /* Teal header */
+  color: #333;
+  font-weight: 600;
+}
+#skills tr:hover {
+  background-color: #F2F0EA;
+}
+
+/* ---------- CONTACT FORM ---------- */
+form {
+  margin-top: 10px;
+}
+
+label {
+  font-weight: 500;
+  color: #333;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 6px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background-color: #F9F9F9;
+}
+
+input[type="submit"] {
+  background-color: #A8D5E3; /* Teal button */
+  color: #333;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 6px;
+  margin-top: 10px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+input[type="submit"]:hover {
+  background-color: #FF78AC; /* Pink hover */
+  color: white;
+}
+
+/* ---------- FOOTER ---------- */
+footer {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #A8D5E3; /* Teal footer */
+  color: #333;
+  font-size: 0.9rem;
+  border-top: 3px solid #FF78AC;
+}
+
+footer a {
+  color: #FF78AC;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
