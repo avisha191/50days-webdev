@@ -4,8 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
@@ -32,20 +35,48 @@
       <section id="projects">
         <h2>Projects</h2>
         <p>Here are some of my current and upcoming practice projects:</p>
-        <ul>
-          <li>
-            <strong>Portfolio Website</strong> — My personal website built using
-            HTML and CSS.
-          </li>
-          <li>
-            <strong>Lost & Found App</strong> — A project idea that uses
-            AI-based image matching and chat features.
-          </li>
-          <li>
-            <strong>LegalDoc Summarizer</strong> — AI tool that summarizes and
-            detects risk in legal documents.
-          </li>
-        </ul>
+        <div class="projects-grid">
+          <!-- Project Card 1 -->
+          <div class="project-card">
+            <img
+              src="https://picsum.photos/400/250?random=1"
+              alt="Portfolio Website preview"
+            />
+            <h3>Portfolio Website</h3>
+            <p>
+              A personal website built using HTML and CSS to showcase my
+              projects and skills.
+            </p>
+            <a href="#" class="btn">View Project</a>
+          </div>
+          <!-- Project Card 2 -->
+            <div class="project-card">
+              <img
+                src="https://picsum.photos/400/250?random=2"
+                alt="Lost & Found App"
+              />
+              <h3>Lost & Found App</h3>
+              <p>
+                An app idea that uses AI-based image matching and chat to
+                reunite people with lost items.
+              </p>
+              <a href="#" class="btn">View Project</a>
+            </div>
+
+            <!-- Project Card 3 -->
+            <div class="project-card">
+              <img
+                src="https://picsum.photos/400/250?random=3"
+                alt="LegalDoc Summarizer"
+              />
+              <h3>LegalDoc Summarizer</h3>
+              <p>
+                An AI-powered tool that summarizes and detects risks in legal
+                documents.
+              </p>
+              <a href="#" class="btn">View Project</a>
+            </div>
+        </div>
       </section>
       <!-- ========================= -->
       <!-- SKILLS SECTION -->
