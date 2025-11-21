@@ -18,8 +18,10 @@
         <a href="google.com">Projects</a>
         <a href="google.com">Contact</a>
       </nav>
+      
     </header>
     <main>
+      <button id="theme-toggle" class="theme-btn">🌙 Dark Mode</button>
       <section id="about">
         <h2>About Me</h2>
         <p>
@@ -50,32 +52,32 @@
             <a href="#" class="btn">View Project</a>
           </div>
           <!-- Project Card 2 -->
-            <div class="project-card">
-              <img
-                src="https://picsum.photos/400/250?random=2"
-                alt="Lost & Found App"
-              />
-              <h3>Lost & Found App</h3>
-              <p>
-                An app idea that uses AI-based image matching and chat to
-                reunite people with lost items.
-              </p>
-              <a href="#" class="btn">View Project</a>
-            </div>
+          <div class="project-card">
+            <img
+              src="https://picsum.photos/400/250?random=2"
+              alt="Lost & Found App"
+            />
+            <h3>Lost & Found App</h3>
+            <p>
+              An app idea that uses AI-based image matching and chat to reunite
+              people with lost items.
+            </p>
+            <a href="#" class="btn">View Project</a>
+          </div>
 
-            <!-- Project Card 3 -->
-            <div class="project-card">
-              <img
-                src="https://picsum.photos/400/250?random=3"
-                alt="LegalDoc Summarizer"
-              />
-              <h3>LegalDoc Summarizer</h3>
-              <p>
-                An AI-powered tool that summarizes and detects risks in legal
-                documents.
-              </p>
-              <a href="#" class="btn">View Project</a>
-            </div>
+          <!-- Project Card 3 -->
+          <div class="project-card">
+            <img
+              src="https://picsum.photos/400/250?random=3"
+              alt="LegalDoc Summarizer"
+            />
+            <h3>LegalDoc Summarizer</h3>
+            <p>
+              An AI-powered tool that summarizes and detects risks in legal
+              documents.
+            </p>
+            <a href="#" class="btn">View Project</a>
+          </div>
         </div>
       </section>
       <!-- ========================= -->
@@ -155,6 +157,15 @@
           <input type="submit" value="Send Message" />
         </form>
       </section>
+      <section id="counter" class="counter-section">
+        <h2>Interactive Counter</h2>
+        <p id="count">0</p>
+        <div class="counter-buttons">
+          <button id="increase">Increase</button>
+          <button id="decrease">Decrease</button>
+          <button id="reset">Reset</button>
+        </div>
+      </section>
 
       <!-- ========================= -->
       <!-- FOOTER SECTION -->
@@ -170,5 +181,6 @@
         </p>
       </footer>
     </main>
+    <script src="script.js"></script>
   </body>
 </html>

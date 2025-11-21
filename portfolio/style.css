@@ -50,6 +50,19 @@ main {
   max-width: 900px;
   margin: 40px auto;
 }
+/*TOOGLE MODE*/
+body.dark {
+  background-color: #2a2342;  /* muted plum */
+  color: #3c2f54;           /* lavender white */
+}
+
+.theme-btn {
+  padding: 10px 18px;
+  border-radius: 6px;
+  cursor: pointer;
+  border: none;
+  font-size: 1rem;
+}
 
 /* ---------- SECTIONS ---------- */
 section {
